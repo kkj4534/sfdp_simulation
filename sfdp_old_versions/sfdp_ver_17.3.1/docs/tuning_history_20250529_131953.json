@@ -1,0 +1,80 @@
+[
+  {
+    "iteration_id": 1,
+    "validation_score": 0.539,
+    "individual_scores": {
+      "Level_1": 0.8,
+      "Level_2": 0.7200000000000001,
+      "Level_3": 0.3,
+      "Level_4": 0.2,
+      "Level_5": 0.0
+    },
+    "execution_time": 0.07861948013305664,
+    "timestamp": "2025-05-29T13:19:52.784154"
+  },
+  {
+    "iteration_id": 2,
+    "validation_score": 0.539,
+    "individual_scores": {
+      "Level_1": 0.8,
+      "Level_2": 0.7200000000000001,
+      "Level_3": 0.3,
+      "Level_4": 0.2,
+      "Level_5": 0.0
+    },
+    "execution_time": 0.06774377822875977,
+    "timestamp": "2025-05-29T13:19:52.852066"
+  },
+  {
+    "iteration_id": 3,
+    "validation_score": 0.539,
+    "individual_scores": {
+      "Level_1": 0.8,
+      "Level_2": 0.7200000000000001,
+      "Level_3": 0.3,
+      "Level_4": 0.2,
+      "Level_5": 0.0
+    },
+    "execution_time": 0.06903743743896484,
+    "timestamp": "2025-05-29T13:19:52.921274"
+  },
+  {
+    "iteration_id": 4,
+    "validation_score": 0.539,
+    "individual_scores": {
+      "Level_1": 0.8,
+      "Level_2": 0.7200000000000001,
+      "Level_3": 0.3,
+      "Level_4": 0.2,
+      "Level_5": 0.0
+    },
+    "execution_time": 0.08480429649353027,
+    "timestamp": "2025-05-29T13:19:53.006246"
+  },
+  {
+    "iteration_id": 5,
+    "validation_score": 0.539,
+    "individual_scores": {
+      "Level_1": 0.8,
+      "Level_2": 0.7200000000000001,
+      "Level_3": 0.3,
+      "Level_4": 0.2,
+      "Level_5": 0.0
+    },
+    "execution_time": 0.0694437026977539,
+    "timestamp": "2025-05-29T13:19:53.075829"
+  },
+  {
+    "iteration_id": 6,
+    "validation_score": 0.539,
+    "individual_scores": {
+      "Level_1": 0.8,
+      "Level_2": 0.7200000000000001,
+      "Level_3": 0.3,
+      "Level_4": 0.2,
+      "Level_5": 0.0
+    },
+    "execution_time": 0.07737374305725098,
+    "timestamp": "2025-05-29T13:19:53.153361"
+  }
+]
