@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SFDP Technology Interactive Demo</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .controls {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .slider-group {
+            margin-bottom: 20px;
+        }
+        .slider-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+        .slider {
+            width: 100%;
+            height: 40px;
+            -webkit-appearance: none;
+            appearance: none;
+            background: #e0e0e0;
+            outline: none;
+            border-radius: 20px;
+            transition: all 0.3s;
+        }
+        .slider:hover {
+            background: #d0d0d0;
+        }
+        .slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            background: #667eea;
+            cursor: pointer;
+            border-radius: 50%;
+            transition: all 0.3s;
+        }
+        .slider::-webkit-slider-thumb:hover {
+            transform: scale(1.2);
+            box-shadow: 0 0 10px rgba(102, 126, 234, 0.5);
+        }
+        .results {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .result-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .result-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+        .result-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+            margin: 10px 0;
+        }
+        .pattern-viz {
+            width: 100%;
+            height: 300px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            margin-top: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+        .diamond-pattern {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                repeating-linear-gradient(45deg, #667eea 0, #667eea 1px, transparent 1px, transparent 15px),
+                repeating-linear-gradient(-45deg, #667eea 0, #667eea 1px, transparent 1px, transparent 15px);
+        }
+        .select-wrapper {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #e0e0e0;
+            border-radius: 5px;
+            background: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: border-color 0.3s;
+        }
+        select:hover {
+            border-color: #667eea;
+        }
+        .strategy-comparison {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        .comparison-chart {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            height: 200px;
+            margin-top: 20px;
+        }
+        .bar {
+            width: 60px;
+            background: linear-gradient(to top, #667eea, #764ba2);
+            border-radius: 5px 5px 0 0;
+            position: relative;
+            transition: all 0.3s;
+        }
+        .bar:hover {
+            transform: scaleY(1.05);
+        }
+        .bar-label {
+            position: absolute;
+            bottom: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 12px;
+            white-space: nowrap;
+        }
+        .bar-value {
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-weight: bold;
+            color: #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>SFDP Technology Interactive Demo</h1>
+            <p>Explore the Spiral Feed mark Diamond Pattern machining parameters and their effects</p>
+        </div>
+
+        <div class="controls">
+            <h2>Machining Parameters</h2>
+            
+            <div class="slider-group">
+                <label for="material">Material Selection</label>
+                <div class="select-wrapper">
+                    <select id="material" onchange="updateResults()">
+                        <option value="aluminum">Aluminum 7075</option>
+                        <option value="titanium">Ti6Al4V</option>
+                        <option value="steel">Stainless Steel 316L</option>
+                        <option value="copper">Copper C11000</option>
+                        <option value="magnesium">Magnesium AZ31B</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="slider-group">
+                <label for="speed">Cutting Speed: <span id="speedValue">200</span> m/min</label>
+                <input type="range" id="speed" class="slider" min="150" max="350" value="200" step="10" oninput="updateResults()">
+            </div>
+
+            <div class="slider-group">
+                <label for="pitch">Spiral Pitch: <span id="pitchValue">2.0</span> mm</label>
+                <input type="range" id="pitch" class="slider" min="1.0" max="3.0" value="2.0" step="0.1" oninput="updateResults()">
+            </div>
+
+            <div class="slider-group">
+                <label for="angle">Cross Angle: <span id="angleValue">30</span>°</label>
+                <input type="range" id="angle" class="slider" min="15" max="90" value="30" step="15" oninput="updateResults()">
+            </div>
+
+            <div class="slider-group">
+                <label for="cooling">Cooling Method</label>
+                <div class="select-wrapper">
+                    <select id="cooling" onchange="updateResults()">
+                        <option value="air">Forced Air</option>
+                        <option value="oil">Oil Emulsion</option>
+                        <option value="mql">MQL</option>
+                        <option value="cryo">Cryogenic</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="results">
+            <div class="result-card">
+                <h3>Surface Roughness</h3>
+                <div class="result-value" id="roughness">0.45</div>
+                <p>Ra (μm)</p>
+            </div>
+            
+            <div class="result-card">
+                <h3>Diamond Density</h3>
+                <div class="result-value" id="density">1.00</div>
+                <p>diamonds/mm²</p>
+            </div>
+            
+            <div class="result-card">
+                <h3>Max Temperature</h3>
+                <div class="result-value" id="temperature">120</div>
+                <p>°C</p>
+            </div>
+            
+            <div class="result-card">
+                <h3>Pattern Quality</h3>
+                <div class="result-value" id="quality">85</div>
+                <p>Score (0-100)</p>
+            </div>
+        </div>
+
+        <div class="pattern-viz">
+            <div class="diamond-pattern" id="patternViz"></div>
+        </div>
+
+        <div class="strategy-comparison">
+            <h3>Strategy Performance Comparison</h3>
+            <div class="comparison-chart" id="comparisonChart">
+                <div class="bar" style="height: 60%" data-strategy="Conv">
+                    <span class="bar-value">60</span>
+                    <span class="bar-label">Conventional</span>
+                </div>
+                <div class="bar" style="height: 75%" data-strategy="Spiral">
+                    <span class="bar-value">75</span>
+                    <span class="bar-label">Spiral</span>
+                </div>
+                <div class="bar" style="height: 85%" data-strategy="Cross">
+                    <span class="bar-value">85</span>
+                    <span class="bar-label">Cross</span>
+                </div>
+                <div class="bar" style="height: 80%" data-strategy="HSS">
+                    <span class="bar-value">80</span>
+                    <span class="bar-label">High Speed</span>
+                </div>
+                <div class="bar" style="height: 70%" data-strategy="Troch">
+                    <span class="bar-value">70</span>
+                    <span class="bar-label">Trochoidal</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function updateResults() {
+            // Get parameter values
+            const material = document.getElementById('material').value;
+            const speed = document.getElementById('speed').value;
+            const pitch = document.getElementById('pitch').value;
+            const angle = document.getElementById('angle').value;
+            const cooling = document.getElementById('cooling').value;
+            
+            // Update display values
+            document.getElementById('speedValue').textContent = speed;
+            document.getElementById('pitchValue').textContent = pitch;
+            document.getElementById('angleValue').textContent = angle;
+            
+            // Calculate results based on simplified models
+            const materialFactors = {
+                aluminum: { roughness: 0.45, temp: 120, quality: 85 },
+                titanium: { roughness: 0.32, temp: 450, quality: 78 },
+                steel: { roughness: 0.38, temp: 380, quality: 75 },
+                copper: { roughness: 0.35, temp: 95, quality: 82 },
+                magnesium: { roughness: 0.48, temp: 150, quality: 80 }
+            };
+            
+            const coolingFactors = {
+                air: { tempReduction: 1.0, roughnessImprovement: 1.0 },
+                oil: { tempReduction: 0.7, roughnessImprovement: 0.9 },
+                mql: { tempReduction: 0.8, roughnessImprovement: 0.85 },
+                cryo: { tempReduction: 0.5, roughnessImprovement: 0.8 }
+            };
+            
+            const baseMaterial = materialFactors[material];
+            const coolingEffect = coolingFactors[cooling];
+            
+            // Calculate surface roughness
+            const roughness = (baseMaterial.roughness * (speed/200) * coolingEffect.roughnessImprovement).toFixed(2);
+            
+            // Calculate diamond density
+            const density = (1 / (Math.pow(pitch, 2) * Math.sin(angle * Math.PI / 180))).toFixed(2);
+            
+            // Calculate temperature
+            const temperature = Math.round(baseMaterial.temp * coolingEffect.tempReduction);
+            
+            // Calculate pattern quality
+            const angleQuality = angle === 30 ? 1 : 0.8;
+            const pitchQuality = pitch <= 2 ? 1 : 0.9;
+            const quality = Math.round(baseMaterial.quality * angleQuality * pitchQuality);
+            
+            // Update display
+            document.getElementById('roughness').textContent = roughness;
+            document.getElementById('density').textContent = density;
+            document.getElementById('temperature').textContent = temperature;
+            document.getElementById('quality').textContent = quality;
+            
+            // Update pattern visualization
+            updatePatternVisualization(pitch, angle);
+            
+            // Update strategy comparison
+            updateStrategyComparison(material);
+        }
+        
+        function updatePatternVisualization(pitch, angle) {
+            const pattern = document.getElementById('patternViz');
+            const spacing = pitch * 5; // Scale for visualization
+            pattern.style.backgroundImage = `
+                repeating-linear-gradient(${angle}deg, #667eea 0, #667eea 1px, transparent 1px, transparent ${spacing}px),
+                repeating-linear-gradient(${-angle}deg, #667eea 0, #667eea 1px, transparent 1px, transparent ${spacing}px)
+            `;
+        }
+        
+        function updateStrategyComparison(material) {
+            const scores = {
+                aluminum: [60, 75, 85, 80, 70],
+                titanium: [55, 70, 82, 78, 72],
+                steel: [58, 72, 80, 76, 68],
+                copper: [62, 76, 83, 82, 71],
+                magnesium: [59, 73, 81, 79, 69]
+            };
+            
+            const bars = document.querySelectorAll('.bar');
+            const materialScores = scores[material];
+            
+            bars.forEach((bar, index) => {
+                const score = materialScores[index];
+                bar.style.height = score + '%';
+                bar.querySelector('.bar-value').textContent = score;
+            });
+        }
+        
+        // Initialize on load
+        updateResults();
+    </script>
+</body>
+</html>

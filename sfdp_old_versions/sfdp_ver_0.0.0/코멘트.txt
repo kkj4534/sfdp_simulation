@@ -1,0 +1,4 @@
+하드 코딩 남발
+very empirical
+low validitation
+too many magicnumber
