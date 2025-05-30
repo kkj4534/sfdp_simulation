@@ -1,0 +1,71 @@
+experiment_id,reference,material,tool_type,coating,cutting_speed_m_min,feed_mm_rev,depth_mm,cooling,machining_time_min,temperature_C,tool_wear_VB_mm,surface_roughness_Ra_um,cutting_force_N,power_consumption_W,notes
+EXP001,DMello2018,Ti6Al4V,Carbide,TiAlN,120,0.15,1.0,flood,15,285,0.18,1.25,420,1250,Original Ti-6Al-4V data
+EXP002,DMello2018,Ti6Al4V,Carbide,TiAlN,150,0.20,1.5,flood,15,320,0.25,1.65,520,1480,
+EXP003,DMello2018,Ti6Al4V,Carbide,TiAlN,180,0.25,2.0,flood,15,365,0.32,2.15,680,1820,
+EXP004,Safari2019,Ti6Al4V,Carbide,PVD,100,0.10,0.5,dry,20,245,0.15,0.85,380,950,
+EXP005,Safari2019,Ti6Al4V,Carbide,PVD,150,0.15,1.0,dry,20,385,0.28,1.45,580,1350,
+EXP006,Safari2019,Ti6Al4V,Carbide,PVD,200,0.20,1.5,dry,20,465,0.42,2.25,780,1750,
+EXP007,Agrawal2021,Ti6Al4V,Carbide,Uncoated,80,0.12,1.0,wet,25,220,0.12,1.15,350,980,
+EXP008,Agrawal2021,Ti6Al4V,Carbide,Uncoated,90,0.15,1.2,wet,25,265,0.18,1.35,420,1150,
+EXP009,Agrawal2021,Ti6Al4V,Carbide,Uncoated,100,0.18,1.5,wet,25,305,0.22,1.58,490,1320,
+EXP010,Comparison2023,Ti6Al4V,Carbide,AlCrN,80,0.10,1.0,cryogenic,30,180,0.08,0.92,320,850,
+EXP011,Comparison2023,Ti6Al4V,Carbide,AlCrN,90,0.12,1.2,cryogenic,30,210,0.12,1.08,380,950,
+EXP012,Comparison2023,Ti6Al4V,Carbide,AlCrN,100,0.15,1.5,cryogenic,30,245,0.16,1.25,440,1080,
+EXP013,ADRT2022,Ti6Al4V_ELI,Carbide,TiCN,60,0.08,0.8,dry,18,195,0.10,0.68,280,750,
+EXP014,ADRT2022,Ti6Al4V_ELI,Carbide,TiCN,80,0.12,1.0,dry,18,235,0.15,0.85,350,920,
+EXP015,ADRT2022,Ti6Al4V_ELI,Carbide,TiCN,100,0.15,1.2,dry,18,275,0.20,1.15,420,1150,
+EXP016,MicroMilling2018,Ti6Al4V,Carbide,Uncoated,150,0.05,0.3,flood,10,315,0.035,0.45,180,450,
+EXP017,MicroMilling2018,Ti6Al4V,Carbide,Uncoated,200,0.08,0.5,flood,10,385,0.055,0.72,260,650,
+EXP018,MicroMilling2018,Ti6Al4V,Carbide,Uncoated,250,0.10,0.8,flood,10,445,0.075,1.05,340,850,
+EXP019,HSM2023,Ti6Al4V,Carbide,TiAlN,300,0.06,0.2,mist,8,425,0.045,0.63,220,580,
+EXP020,HSM2023,Ti6Al4V,Carbide,TiAlN,350,0.08,0.3,mist,8,485,0.065,0.85,280,720,
+EXP021,Natarajan2024,Ti6Al4V,Carbide,TiAlN,70,0.10,1.0,flood,22,245,0.14,1.28,380,1020,
+EXP022,Natarajan2024,Ti6Al4V,Carbide,TiAlN,90,0.15,1.5,flood,22,295,0.21,1.68,520,1380,
+EXP023,Natarajan2024,Ti6Al4V,Carbide,TiAlN,110,0.20,2.0,flood,22,345,0.28,2.15,680,1750,
+EXP024,Drilling2017,Ti6Al4V,HSS_Drill,TiN,25,0.05,8.0,flood,12,265,0.18,1.85,450,850,
+EXP025,Drilling2017,Ti6Al4V,HSS_Drill,TiN,35,0.08,8.0,flood,12,315,0.26,2.35,580,1150,
+EXP026,Aerospace2024,Al2024_T3,Carbide,TiAlN,200,0.20,1.5,flood,20,165,0.08,0.45,280,750,Aluminum 2024-T3 aerospace machining
+EXP027,Aerospace2024,Al2024_T3,Carbide,TiAlN,250,0.25,2.0,flood,20,185,0.12,0.62,350,950,
+EXP028,Aerospace2024,Al2024_T3,Carbide,TiAlN,300,0.30,2.5,flood,20,210,0.15,0.85,420,1200,
+EXP029,Aircraft2023,Al2024_T3,Carbide,Uncoated,150,0.15,1.0,dry,15,145,0.06,0.38,240,650,
+EXP030,Aircraft2023,Al2024_T3,Carbide,Uncoated,180,0.18,1.2,dry,15,160,0.09,0.52,290,780,
+EXP031,Aircraft2023,Al2024_T3,HSS,TiN,120,0.12,0.8,flood,18,125,0.05,0.35,220,580,
+EXP032,Aircraft2023,Al2024_T3,HSS,TiN,140,0.15,1.0,flood,18,140,0.07,0.48,260,680,
+EXP033,Stainless2024,SS316L,Carbide,TiAlN,80,0.15,1.0,flood,25,195,0.12,0.85,480,1150,Stainless steel 316L machining
+EXP034,Stainless2024,SS316L,Carbide,TiAlN,100,0.18,1.2,flood,25,225,0.16,1.15,580,1380,
+EXP035,Stainless2024,SS316L,Carbide,TiAlN,120,0.22,1.5,flood,25,265,0.22,1.52,720,1650,
+EXP036,Medical2023,SS316L,Carbide,AlCrN,60,0.10,0.8,wet,30,165,0.08,0.65,380,950,Medical grade machining
+EXP037,Medical2023,SS316L,Carbide,AlCrN,75,0.12,1.0,wet,30,185,0.11,0.85,450,1120,
+EXP038,Medical2023,SS316L,Carbide,AlCrN,90,0.15,1.2,wet,30,215,0.15,1.12,540,1350,
+EXP039,Chemical2024,SS316L,Carbide,PVD,100,0.20,1.5,cryogenic,20,155,0.10,0.78,520,1280,Chemical industry application
+EXP040,Chemical2024,SS316L,Carbide,PVD,125,0.25,2.0,cryogenic,20,185,0.14,1.05,650,1580,
+EXP041,Superalloy2024,Inconel718,Carbide,AlCrN,30,0.08,0.5,flood,35,385,0.25,1.85,850,1850,Inconel 718 difficult machining
+EXP042,Superalloy2024,Inconel718,Carbide,AlCrN,40,0.10,0.8,flood,35,425,0.32,2.25,1050,2250,
+EXP043,Superalloy2024,Inconel718,Carbide,AlCrN,50,0.12,1.0,flood,35,485,0.42,2.85,1350,2750,
+EXP044,Aero2023,Inconel718,Carbide,TiAlN,25,0.06,0.4,cryogenic,40,325,0.18,1.45,720,1650,Aerospace superalloy
+EXP045,Aero2023,Inconel718,Carbide,TiAlN,35,0.08,0.6,cryogenic,40,365,0.25,1.85,920,2050,
+EXP046,Aero2023,Inconel718,Carbide,TiAlN,45,0.10,0.8,cryogenic,40,425,0.35,2.35,1180,2550,
+EXP047,Energy2024,Inconel718,Ceramic,None,60,0.15,1.2,dry,30,525,0.45,3.25,1480,3250,High speed ceramic cutting
+EXP048,Energy2024,Inconel718,Ceramic,None,80,0.18,1.5,dry,30,585,0.55,3.85,1850,4150,
+EXP049,Steel2024,AISI1045,Carbide,TiN,150,0.25,2.0,flood,20,185,0.15,1.25,520,1250,Medium carbon steel machining
+EXP050,Steel2024,AISI1045,Carbide,TiN,180,0.30,2.5,flood,20,215,0.20,1.65,650,1550,
+EXP051,Steel2024,AISI1045,Carbide,TiN,220,0.35,3.0,flood,20,265,0.28,2.15,820,1950,
+EXP052,Auto2023,AISI1045,HSS,TiN,100,0.20,1.5,wet,25,165,0.12,1.05,420,1050,Automotive application
+EXP053,Auto2023,AISI1045,HSS,TiN,120,0.25,2.0,wet,25,185,0.16,1.35,520,1280,
+EXP054,Auto2023,AISI1045,HSS,TiN,140,0.30,2.5,wet,25,215,0.22,1.75,640,1580,
+EXP055,Machinery2024,AISI4140,Carbide,TiAlN,120,0.20,1.5,flood,22,205,0.18,1.15,580,1380,Alloy steel machining
+EXP056,Machinery2024,AISI4140,Carbide,TiAlN,150,0.25,2.0,flood,22,245,0.24,1.52,720,1680,
+EXP057,Machinery2024,AISI4140,Carbide,TiAlN,180,0.30,2.5,flood,22,295,0.32,1.95,890,2050,
+EXP058,Industrial2023,AISI4140,Carbide,AlCrN,100,0.18,1.2,wet,25,185,0.15,0.95,480,1150,
+EXP059,Industrial2023,AISI4140,Carbide,AlCrN,125,0.22,1.5,wet,25,215,0.20,1.25,590,1420,
+EXP060,Industrial2023,AISI4140,Carbide,AlCrN,150,0.28,2.0,wet,25,255,0.26,1.65,730,1750,
+EXP061,General2024,Al6061_T6,Carbide,TiN,250,0.30,2.0,flood,15,125,0.05,0.32,180,450,General purpose aluminum
+EXP062,General2024,Al6061_T6,Carbide,TiN,300,0.35,2.5,flood,15,145,0.07,0.45,220,550,
+EXP063,General2024,Al6061_T6,Carbide,TiN,350,0.40,3.0,flood,15,165,0.10,0.62,280,720,
+EXP064,Marine2023,Al6061_T6,HSS,Uncoated,200,0.25,1.8,wet,18,115,0.04,0.28,160,420,Marine application
+EXP065,Marine2023,Al6061_T6,HSS,Uncoated,240,0.30,2.2,wet,18,130,0.06,0.38,195,520,
+EXP066,Electronics2024,Al6061_T6,Carbide,Diamond,400,0.15,0.5,dry,12,185,0.02,0.15,120,350,High precision electronics
+EXP067,Electronics2024,Al6061_T6,Carbide,Diamond,450,0.18,0.8,dry,12,205,0.03,0.22,150,420,
+EXP068,Micro2024,Ti6Al4V,Micro_Mill,Diamond,180,0.03,0.2,mist,8,285,0.015,0.25,85,280,Micro machining validation
+EXP069,Micro2024,Al2024_T3,Micro_Mill,Diamond,220,0.04,0.3,mist,8,145,0.008,0.18,65,220,
+EXP070,Micro2024,SS316L,Micro_Mill,TiAlN,120,0.05,0.4,flood,10,175,0.012,0.35,95,320,

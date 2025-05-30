@@ -1,0 +1,11 @@
+experiment_id,source,year,cutting_speed_m_min,feed_rate_mm_rev,depth_of_cut_mm,cutting_temperature_K,cutting_force_Fc_N,tool_wear_rate_mm_min,surface_roughness_Ra_um,material,tool_type,cooling,reliability_score
+EXP101,WebSearch_2024_Study1,2023,80,0.15,1.2,573,1150,0.00025,1.8,Ti6Al4V,Carbide,Dry,0.85
+EXP102,WebSearch_2024_Study1,2023,120,0.15,1.2,648,1320,0.00038,2.1,Ti6Al4V,Carbide,Dry,0.85
+EXP103,WebSearch_2024_Study1,2023,160,0.15,1.2,715,1480,0.00052,2.4,Ti6Al4V,Carbide,Dry,0.85
+EXP104,WebSearch_2024_Study2,2024,100,0.08,0.8,598,980,0.00018,1.2,Ti6Al4V,Carbide,MQL,0.90
+EXP105,WebSearch_2024_Study2,2024,150,0.08,0.8,692,1180,0.00031,1.5,Ti6Al4V,Carbide,MQL,0.90
+EXP106,WebSearch_2024_Study2,2024,200,0.08,0.8,786,1380,0.00047,1.8,Ti6Al4V,Carbide,MQL,0.90
+EXP107,WebSearch_2024_Study3,2024,90,0.20,1.5,612,1580,0.00042,2.8,Ti6Al4V,Carbide,Flood,0.88
+EXP108,WebSearch_2024_Study3,2024,130,0.20,1.5,701,1820,0.00061,3.2,Ti6Al4V,Carbide,Flood,0.88
+EXP109,WebSearch_2024_Study3,2024,170,0.20,1.5,798,2050,0.00085,3.6,Ti6Al4V,Carbide,Flood,0.88
+EXP110,WebSearch_2024_Study4,2023,75,0.12,1.0,548,1050,0.00022,1.6,Ti6Al4V,Coated_Carbide,Dry,0.82

@@ -1,0 +1,2863 @@
+{
+  "total_iterations": 150,
+  "best_error": 5.341567417290811,
+  "best_iteration": 98,
+  "baseline_error": 8.399546006255287,
+  "final_weights": {
+    "L1": 0.5061243444197143,
+    "L2": 0.1,
+    "L5": 0.3981704709503214
+  },
+  "results": [
+    {
+      "iteration": 1,
+      "validation_error": 10.448690727326483,
+      "validation_score": 0.8955130927267352,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00022459030151367188,
+      "conditions": {
+        "cutting_speed": 55.0,
+        "feed_rate": 0.26,
+        "depth_of_cut": 0.5,
+        "layer_weights": {
+          "L1": 0.4,
+          "L2": 0.3,
+          "L5": 0.3
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.562565"
+    },
+    {
+      "iteration": 2,
+      "validation_error": 7.733515694810942,
+      "validation_score": 0.9226648430518906,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 9.655952453613281e-05,
+      "conditions": {
+        "cutting_speed": 60.0,
+        "feed_rate": 0.27,
+        "depth_of_cut": 0.5,
+        "layer_weights": {
+          "L1": 0.4,
+          "L2": 0.3,
+          "L5": 0.3
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.562765"
+    },
+    {
+      "iteration": 3,
+      "validation_error": 10.177256946860638,
+      "validation_score": 0.8982274305313936,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00010347366333007812,
+      "conditions": {
+        "cutting_speed": 65.0,
+        "feed_rate": 0.28,
+        "depth_of_cut": 0.5,
+        "layer_weights": {
+          "L1": 0.4,
+          "L2": 0.3,
+          "L5": 0.3
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.562960"
+    },
+    {
+      "iteration": 4,
+      "validation_error": 6.401123414285878,
+      "validation_score": 0.9359887658571412,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00011134147644042969,
+      "conditions": {
+        "cutting_speed": 70.0,
+        "feed_rate": 0.29,
+        "depth_of_cut": 0.5,
+        "layer_weights": {
+          "L1": 0.4,
+          "L2": 0.3,
+          "L5": 0.3
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.563113"
+    },
+    {
+      "iteration": 5,
+      "validation_error": 6.882454973770082,
+      "validation_score": 0.9311754502622992,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0001266002655029297,
+      "conditions": {
+        "cutting_speed": 75.0,
+        "feed_rate": 0.3,
+        "depth_of_cut": 0.5,
+        "layer_weights": {
+          "L1": 0.4,
+          "L2": 0.3,
+          "L5": 0.3
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.563325"
+    },
+    {
+      "iteration": 6,
+      "validation_error": 6.323567346975032,
+      "validation_score": 0.9367643265302497,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00012040138244628906,
+      "conditions": {
+        "cutting_speed": 80.0,
+        "feed_rate": 0.31,
+        "depth_of_cut": 0.5,
+        "layer_weights": {
+          "L1": 0.4,
+          "L2": 0.3,
+          "L5": 0.3
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.563497"
+    },
+    {
+      "iteration": 7,
+      "validation_error": 9.781051407600712,
+      "validation_score": 0.9021894859239928,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 9.822845458984375e-05,
+      "conditions": {
+        "cutting_speed": 85.0,
+        "feed_rate": 0.32,
+        "depth_of_cut": 0.5,
+        "layer_weights": {
+          "L1": 0.4,
+          "L2": 0.3,
+          "L5": 0.3
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.563679"
+    },
+    {
+      "iteration": 8,
+      "validation_error": 7.282409433239639,
+      "validation_score": 0.9271759056676037,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 9.918212890625e-05,
+      "conditions": {
+        "cutting_speed": 90.0,
+        "feed_rate": 0.33,
+        "depth_of_cut": 0.5,
+        "layer_weights": {
+          "L1": 0.4,
+          "L2": 0.3,
+          "L5": 0.3
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.563817"
+    },
+    {
+      "iteration": 9,
+      "validation_error": 7.802217109424421,
+      "validation_score": 0.9219778289057557,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 9.894371032714844e-05,
+      "conditions": {
+        "cutting_speed": 95.0,
+        "feed_rate": 0.33999999999999997,
+        "depth_of_cut": 0.5,
+        "layer_weights": {
+          "L1": 0.4,
+          "L2": 0.3,
+          "L5": 0.3
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.563955"
+    },
+    {
+      "iteration": 10,
+      "validation_error": 11.163173008259037,
+      "validation_score": 0.8883682699174096,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 9.894371032714844e-05,
+      "conditions": {
+        "cutting_speed": 100.0,
+        "feed_rate": 0.35,
+        "depth_of_cut": 0.5,
+        "layer_weights": {
+          "L1": 0.4,
+          "L2": 0.3,
+          "L5": 0.3
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.564093"
+    },
+    {
+      "iteration": 11,
+      "validation_error": 8.44101065291005,
+      "validation_score": 0.9155898934708995,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002741813659667969,
+      "conditions": {
+        "cutting_speed": 72.0237064319791,
+        "feed_rate": 0.3384874476709659,
+        "depth_of_cut": 0.5303928458701265,
+        "layer_weights": {
+          "L1": 0.3893176139427047,
+          "L2": 0.31857088743075707,
+          "L5": 0.2921114986265381
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.564523"
+    },
+    {
+      "iteration": 12,
+      "validation_error": 8.658667317239022,
+      "validation_score": 0.9134133268276098,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023436546325683594,
+      "conditions": {
+        "cutting_speed": 72.0237064319791,
+        "feed_rate": 0.3384874476709659,
+        "depth_of_cut": 0.5303928458701265,
+        "layer_weights": {
+          "L1": 0.3784347807262561,
+          "L2": 0.3374902439777291,
+          "L5": 0.2840749752960148
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.564815"
+    },
+    {
+      "iteration": 13,
+      "validation_error": 8.880408149636958,
+      "validation_score": 0.9111959185036305,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00022840499877929688,
+      "conditions": {
+        "cutting_speed": 72.0237064319791,
+        "feed_rate": 0.3384874476709659,
+        "depth_of_cut": 0.5303928458701265,
+        "layer_weights": {
+          "L1": 0.36734773910635937,
+          "L2": 0.35676460840894253,
+          "L5": 0.2758876524846982
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.565101"
+    },
+    {
+      "iteration": 14,
+      "validation_error": 7.9278650935768376,
+      "validation_score": 0.9207213490642316,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00019478797912597656,
+      "conditions": {
+        "cutting_speed": 68.16080143661084,
+        "feed_rate": 0.3092101463125403,
+        "depth_of_cut": 0.5395686482963217,
+        "layer_weights": {
+          "L1": 0.38039235155069423,
+          "L2": 0.3327204695456892,
+          "L5": 0.2868871789036166
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.565368"
+    },
+    {
+      "iteration": 15,
+      "validation_error": 7.657371395167431,
+      "validation_score": 0.9234262860483257,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00016736984252929688,
+      "conditions": {
+        "cutting_speed": 68.16080143661084,
+        "feed_rate": 0.3092101463125403,
+        "depth_of_cut": 0.5395686482963217,
+        "layer_weights": {
+          "L1": 0.3939170364711646,
+          "L2": 0.3077914497149189,
+          "L5": 0.2982915138139165
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.565588"
+    },
+    {
+      "iteration": 16,
+      "validation_error": 7.738023227030064,
+      "validation_score": 0.9226197677296993,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0001556873321533203,
+      "conditions": {
+        "cutting_speed": 68.16080143661084,
+        "feed_rate": 0.3092101463125403,
+        "depth_of_cut": 0.5395686482963217,
+        "layer_weights": {
+          "L1": 0.4079394616661298,
+          "L2": 0.2819449832119031,
+          "L5": 0.31011555512196715
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.565778"
+    },
+    {
+      "iteration": 17,
+      "validation_error": 7.983207104834667,
+      "validation_score": 0.9201679289516533,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00018215179443359375,
+      "conditions": {
+        "cutting_speed": 68.16080143661084,
+        "feed_rate": 0.3092101463125403,
+        "depth_of_cut": 0.5395686482963217,
+        "layer_weights": {
+          "L1": 0.4224779451505611,
+          "L2": 0.25514730583724166,
+          "L5": 0.3223747490121973
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.565993"
+    },
+    {
+      "iteration": 18,
+      "validation_error": 8.383388840937371,
+      "validation_score": 0.9161661115906263,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.000209808349609375,
+      "conditions": {
+        "cutting_speed": 65.58131484183659,
+        "feed_rate": 0.24735579387321083,
+        "depth_of_cut": 0.6015852111159843,
+        "layer_weights": {
+          "L1": 0.4275426704840091,
+          "L2": 0.26530536559765705,
+          "L5": 0.3071519639183337
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.566239"
+    },
+    {
+      "iteration": 19,
+      "validation_error": 8.081923598523595,
+      "validation_score": 0.919180764014764,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002224445343017578,
+      "conditions": {
+        "cutting_speed": 65.58131484183659,
+        "feed_rate": 0.24735579387321083,
+        "depth_of_cut": 0.6015852111159843,
+        "layer_weights": {
+          "L1": 0.43255764849556444,
+          "L2": 0.27536364970679067,
+          "L5": 0.2920787017976449
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.566515"
+    },
+    {
+      "iteration": 20,
+      "validation_error": 7.7834194423418435,
+      "validation_score": 0.9221658055765816,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00018858909606933594,
+      "conditions": {
+        "cutting_speed": 65.58131484183659,
+        "feed_rate": 0.24735579387321083,
+        "depth_of_cut": 0.6015852111159843,
+        "layer_weights": {
+          "L1": 0.4375233678190367,
+          "L2": 0.28532313819240596,
+          "L5": 0.2771534939885574
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.566757"
+    },
+    {
+      "iteration": 21,
+      "validation_error": 7.487847287673752,
+      "validation_score": 0.9251215271232625,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002048015594482422,
+      "conditions": {
+        "cutting_speed": 65.58131484183659,
+        "feed_rate": 0.24735579387321083,
+        "depth_of_cut": 0.6015852111159843,
+        "layer_weights": {
+          "L1": 0.44244031228872105,
+          "L2": 0.2951848014561261,
+          "L5": 0.2623748862551527
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.567014"
+    },
+    {
+      "iteration": 22,
+      "validation_error": 5.413196644789405,
+      "validation_score": 0.9458680335521059,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00018668174743652344,
+      "conditions": {
+        "cutting_speed": 89.6658746429292,
+        "feed_rate": 0.23356408525685413,
+        "depth_of_cut": 0.4983272792363034,
+        "layer_weights": {
+          "L1": 0.47012457990863593,
+          "L2": 0.2963742159263575,
+          "L5": 0.23350120416500658
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.567271"
+    },
+    {
+      "iteration": 23,
+      "validation_error": 7.31052787182687,
+      "validation_score": 0.9268947212817313,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0001819133758544922,
+      "conditions": {
+        "cutting_speed": 99.3317492858584,
+        "feed_rate": 0.15712817051370825,
+        "depth_of_cut": 0.49665455847260676,
+        "layer_weights": {
+          "L1": 0.49919262043604207,
+          "L2": 0.2976230821957941,
+          "L5": 0.20318429736816382
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.567538"
+    },
+    {
+      "iteration": 24,
+      "validation_error": 7.841113934456536,
+      "validation_score": 0.9215888606554347,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00015401840209960938,
+      "conditions": {
+        "cutting_speed": 99.3317492858584,
+        "feed_rate": 0.15712817051370825,
+        "depth_of_cut": 0.49665455847260676,
+        "layer_weights": {
+          "L1": 0.5297136004996471,
+          "L2": 0.29893437190848204,
+          "L5": 0.17135202759187085
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.567726"
+    },
+    {
+      "iteration": 25,
+      "validation_error": 8.488268908513593,
+      "validation_score": 0.915117310914864,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00015163421630859375,
+      "conditions": {
+        "cutting_speed": 99.3317492858584,
+        "feed_rate": 0.15712817051370825,
+        "depth_of_cut": 0.49665455847260676,
+        "layer_weights": {
+          "L1": 0.5617601439591109,
+          "L2": 0.300311205243389,
+          "L5": 0.1379286507975001
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.567911"
+    },
+    {
+      "iteration": 26,
+      "validation_error": 9.19014918547107,
+      "validation_score": 0.9080985081452893,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00020813941955566406,
+      "conditions": {
+        "cutting_speed": 99.3317492858584,
+        "feed_rate": 0.15712817051370825,
+        "depth_of_cut": 0.49665455847260676,
+        "layer_weights": {
+          "L1": 0.5954085047115866,
+          "L2": 0.30175685833878707,
+          "L5": 0.1028346369496263
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.568172"
+    },
+    {
+      "iteration": 27,
+      "validation_error": 10.306864170065365,
+      "validation_score": 0.8969313582993463,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00019288063049316406,
+      "conditions": {
+        "cutting_speed": 90.19276933356814,
+        "feed_rate": 0.15,
+        "depth_of_cut": 0.5884226257148066,
+        "layer_weights": {
+          "L1": 0.6012387480587563,
+          "L2": 0.3151072198567517,
+          "L5": 0.1
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.568417"
+    },
+    {
+      "iteration": 28,
+      "validation_error": 10.350152547239935,
+      "validation_score": 0.8964984745276007,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0001862049102783203,
+      "conditions": {
+        "cutting_speed": 90.19276933356814,
+        "feed_rate": 0.15,
+        "depth_of_cut": 0.5884226257148066,
+        "layer_weights": {
+          "L1": 0.5971205368736755,
+          "L2": 0.3235542687592895,
+          "L5": 0.1
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.568656"
+    },
+    {
+      "iteration": 29,
+      "validation_error": 10.353674316045625,
+      "validation_score": 0.8964632568395438,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00020456314086914062,
+      "conditions": {
+        "cutting_speed": 90.19276933356814,
+        "feed_rate": 0.15,
+        "depth_of_cut": 0.5884226257148066,
+        "layer_weights": {
+          "L1": 0.5902458837103771,
+          "L2": 0.33078109880315687,
+          "L5": 0.1
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.568913"
+    },
+    {
+      "iteration": 30,
+      "validation_error": 10.353959458006175,
+      "validation_score": 0.8964604054199382,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00018405914306640625,
+      "conditions": {
+        "cutting_speed": 90.19276933356814,
+        "feed_rate": 0.15,
+        "depth_of_cut": 0.5884226257148066,
+        "layer_weights": {
+          "L1": 0.5829846633165191,
+          "L2": 0.3380708333930699,
+          "L5": 0.1
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.569155"
+    },
+    {
+      "iteration": 31,
+      "validation_error": 9.02708734345473,
+      "validation_score": 0.9097291265654527,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0001952648162841797,
+      "conditions": {
+        "cutting_speed": 64.30034676987793,
+        "feed_rate": 0.30510142811266455,
+        "depth_of_cut": 0.3702340125526558,
+        "layer_weights": {
+          "L1": 0.5823018189124365,
+          "L2": 0.35246546897512715,
+          "L5": 0.1
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.569539"
+    },
+    {
+      "iteration": 32,
+      "validation_error": 9.036517195941068,
+      "validation_score": 0.9096348280405893,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00019097328186035156,
+      "conditions": {
+        "cutting_speed": 64.30034676987793,
+        "feed_rate": 0.30510142811266455,
+        "depth_of_cut": 0.3702340125526558,
+        "layer_weights": {
+          "L1": 0.5731643405025914,
+          "L2": 0.3625459326336061,
+          "L5": 0.1
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.569782"
+    },
+    {
+      "iteration": 33,
+      "validation_error": 9.037155694932094,
+      "validation_score": 0.909628443050679,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002052783966064453,
+      "conditions": {
+        "cutting_speed": 64.30034676987793,
+        "feed_rate": 0.30510142811266455,
+        "depth_of_cut": 0.3702340125526558,
+        "layer_weights": {
+          "L1": 0.5629714411777711,
+          "L2": 0.3728026818575289,
+          "L5": 0.1
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.570039"
+    },
+    {
+      "iteration": 34,
+      "validation_error": 8.022342067434419,
+      "validation_score": 0.9197765793256558,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00019073486328125,
+      "conditions": {
+        "cutting_speed": 90.75175930850257,
+        "feed_rate": 0.1717942089022898,
+        "depth_of_cut": 0.5591065857527507,
+        "layer_weights": {
+          "L1": 0.5263609978685593,
+          "L2": 0.3912994574982286,
+          "L5": 0.1
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.570281"
+    },
+    {
+      "iteration": 35,
+      "validation_error": 8.01377440196944,
+      "validation_score": 0.9198622559803056,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00019860267639160156,
+      "conditions": {
+        "cutting_speed": 90.75175930850257,
+        "feed_rate": 0.1717942089022898,
+        "depth_of_cut": 0.5591065857527507,
+        "layer_weights": {
+          "L1": 0.49969391329762675,
+          "L2": 0.41649760211791675,
+          "L5": 0.1
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.570532"
+    },
+    {
+      "iteration": 36,
+      "validation_error": 8.52412628234239,
+      "validation_score": 0.9147587371765761,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00018334388732910156,
+      "conditions": {
+        "cutting_speed": 90.75175930850257,
+        "feed_rate": 0.1717942089022898,
+        "depth_of_cut": 0.5591065857527507,
+        "layer_weights": {
+          "L1": 0.4741156065168948,
+          "L2": 0.4419544833744797,
+          "L5": 0.1
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.570767"
+    },
+    {
+      "iteration": 37,
+      "validation_error": 9.027518455301339,
+      "validation_score": 0.9097248154469866,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002460479736328125,
+      "conditions": {
+        "cutting_speed": 90.75175930850257,
+        "feed_rate": 0.1717942089022898,
+        "depth_of_cut": 0.5591065857527507,
+        "layer_weights": {
+          "L1": 0.4489409713569696,
+          "L2": 0.4671190655104493,
+          "L5": 0.1
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.571065"
+    },
+    {
+      "iteration": 38,
+      "validation_error": 8.696521868329265,
+      "validation_score": 0.9130347813167073,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002276897430419922,
+      "conditions": {
+        "cutting_speed": 94.02356128520442,
+        "feed_rate": 0.2257506058464366,
+        "depth_of_cut": 0.4344907864332906,
+        "layer_weights": {
+          "L1": 0.4378257781195779,
+          "L2": 0.44831473331234684,
+          "L5": 0.11385948856807533
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.571350"
+    },
+    {
+      "iteration": 39,
+      "validation_error": 8.463112984480972,
+      "validation_score": 0.9153688701551903,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002257823944091797,
+      "conditions": {
+        "cutting_speed": 94.02356128520442,
+        "feed_rate": 0.2257506058464366,
+        "depth_of_cut": 0.4344907864332906,
+        "layer_weights": {
+          "L1": 0.4337188347558785,
+          "L2": 0.4366442891199321,
+          "L5": 0.12963687612418925
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.571634"
+    },
+    {
+      "iteration": 40,
+      "validation_error": 8.228375315961825,
+      "validation_score": 0.9177162468403818,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023603439331054688,
+      "conditions": {
+        "cutting_speed": 94.02356128520442,
+        "feed_rate": 0.2257506058464366,
+        "depth_of_cut": 0.4344907864332906,
+        "layer_weights": {
+          "L1": 0.4295885107766013,
+          "L2": 0.42490740569397484,
+          "L5": 0.1455040835294239
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.571928"
+    },
+    {
+      "iteration": 41,
+      "validation_error": 7.992301298069606,
+      "validation_score": 0.920076987019304,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023102760314941406,
+      "conditions": {
+        "cutting_speed": 94.02356128520442,
+        "feed_rate": 0.2257506058464366,
+        "depth_of_cut": 0.4344907864332906,
+        "layer_weights": {
+          "L1": 0.4254346730771141,
+          "L2": 0.41310370479936387,
+          "L5": 0.16146162212352203
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.572217"
+    },
+    {
+      "iteration": 42,
+      "validation_error": 10.66960967280962,
+      "validation_score": 0.8933039032719038,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023412704467773438,
+      "conditions": {
+        "cutting_speed": 101.17649291524654,
+        "feed_rate": 0.20499484522131362,
+        "depth_of_cut": 0.6073536649940491,
+        "layer_weights": {
+          "L1": 0.4409635222484494,
+          "L2": 0.4103464657285777,
+          "L5": 0.1486900120229729
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.572508"
+    },
+    {
+      "iteration": 43,
+      "validation_error": 10.613871683943923,
+      "validation_score": 0.8938612831605608,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002415180206298828,
+      "conditions": {
+        "cutting_speed": 101.17649291524654,
+        "feed_rate": 0.20499484522131362,
+        "depth_of_cut": 0.6073536649940491,
+        "layer_weights": {
+          "L1": 0.45665941948455985,
+          "L2": 0.40755956628529283,
+          "L5": 0.13578101423014732
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.572808"
+    },
+    {
+      "iteration": 44,
+      "validation_error": 10.557534106333966,
+      "validation_score": 0.8944246589366603,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00022482872009277344,
+      "conditions": {
+        "cutting_speed": 101.17649291524654,
+        "feed_rate": 0.20499484522131362,
+        "depth_of_cut": 0.6073536649940491,
+        "layer_weights": {
+          "L1": 0.472524161767027,
+          "L2": 0.4047426874047949,
+          "L5": 0.12273315082817807
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.573090"
+    },
+    {
+      "iteration": 45,
+      "validation_error": 11.884169530277324,
+      "validation_score": 0.8811583046972268,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00022935867309570312,
+      "conditions": {
+        "cutting_speed": 101.65957711828544,
+        "feed_rate": 0.16965452148010796,
+        "depth_of_cut": 0.46622074609399816,
+        "layer_weights": {
+          "L1": 0.46502640350616475,
+          "L2": 0.4012110232885887,
+          "L5": 0.1337625732052465
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.573381"
+    },
+    {
+      "iteration": 46,
+      "validation_error": 11.811837349200363,
+      "validation_score": 0.8818816265079964,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00022935867309570312,
+      "conditions": {
+        "cutting_speed": 101.65957711828544,
+        "feed_rate": 0.16965452148010796,
+        "depth_of_cut": 0.46622074609399816,
+        "layer_weights": {
+          "L1": 0.4573483062926258,
+          "L2": 0.3975944142347406,
+          "L5": 0.14505727947263355
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.573668"
+    },
+    {
+      "iteration": 47,
+      "validation_error": 11.737765406807233,
+      "validation_score": 0.8826223459319277,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002288818359375,
+      "conditions": {
+        "cutting_speed": 101.65957711828544,
+        "feed_rate": 0.16965452148010796,
+        "depth_of_cut": 0.46622074609399816,
+        "layer_weights": {
+          "L1": 0.4494855325448663,
+          "L2": 0.3938908171150841,
+          "L5": 0.15662365034004969
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.573963"
+    },
+    {
+      "iteration": 48,
+      "validation_error": 7.272940604969993,
+      "validation_score": 0.9272705939503001,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002346038818359375,
+      "conditions": {
+        "cutting_speed": 92.15301106900881,
+        "feed_rate": 0.29810764846056464,
+        "depth_of_cut": 0.5409641236398417,
+        "layer_weights": {
+          "L1": 0.43522813950181066,
+          "L2": 0.39105407054680885,
+          "L5": 0.1737177899513804
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.574255"
+    },
+    {
+      "iteration": 49,
+      "validation_error": 7.2190372675538095,
+      "validation_score": 0.9278096273244619,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002777576446533203,
+      "conditions": {
+        "cutting_speed": 92.15301106900881,
+        "feed_rate": 0.29810764846056464,
+        "depth_of_cut": 0.5409641236398417,
+        "layer_weights": {
+          "L1": 0.4216823212664114,
+          "L2": 0.38835890367599973,
+          "L5": 0.18995877505758885
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.574590"
+    },
+    {
+      "iteration": 50,
+      "validation_error": 7.27560791957554,
+      "validation_score": 0.9272439208042446,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00026702880859375,
+      "conditions": {
+        "cutting_speed": 92.15301106900881,
+        "feed_rate": 0.29810764846056464,
+        "depth_of_cut": 0.5409641236398417,
+        "layer_weights": {
+          "L1": 0.4088125637229138,
+          "L2": 0.3857982503759329,
+          "L5": 0.20538918590115338
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.574915"
+    },
+    {
+      "iteration": 51,
+      "validation_error": 7.520156689314045,
+      "validation_score": 0.9247984331068595,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023126602172851562,
+      "conditions": {
+        "cutting_speed": 92.15301106900881,
+        "feed_rate": 0.29810764846056464,
+        "depth_of_cut": 0.5409641236398417,
+        "layer_weights": {
+          "L1": 0.3965851252359885,
+          "L2": 0.383365397184481,
+          "L5": 0.22004947757953044
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.575205"
+    },
+    {
+      "iteration": 52,
+      "validation_error": 8.148832147541864,
+      "validation_score": 0.9185116785245814,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0001819133758544922,
+      "conditions": {
+        "cutting_speed": 83.26497827747568,
+        "feed_rate": 0.2758499338975832,
+        "depth_of_cut": 0.334694911038569,
+        "layer_weights": {
+          "L1": 0.38728637937737365,
+          "L2": 0.37724298847298604,
+          "L5": 0.23547063214964023
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.575427"
+    },
+    {
+      "iteration": 53,
+      "validation_error": 8.332137019653773,
+      "validation_score": 0.9166786298034623,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0001556873321533203,
+      "conditions": {
+        "cutting_speed": 83.26497827747568,
+        "feed_rate": 0.2758499338975832,
+        "depth_of_cut": 0.334694911038569,
+        "layer_weights": {
+          "L1": 0.3781211357717782,
+          "L2": 0.37120847928787004,
+          "L5": 0.25067038494035165
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.575618"
+    },
+    {
+      "iteration": 54,
+      "validation_error": 8.512810180587804,
+      "validation_score": 0.914871898194122,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002288818359375,
+      "conditions": {
+        "cutting_speed": 83.26497827747568,
+        "feed_rate": 0.2758499338975832,
+        "depth_of_cut": 0.334694911038569,
+        "layer_weights": {
+          "L1": 0.36908747772507666,
+          "L2": 0.3652606076541323,
+          "L5": 0.2656519146207909
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.575898"
+    },
+    {
+      "iteration": 55,
+      "validation_error": 8.690889413866259,
+      "validation_score": 0.9130911058613373,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002048015594482422,
+      "conditions": {
+        "cutting_speed": 83.26497827747568,
+        "feed_rate": 0.2758499338975832,
+        "depth_of_cut": 0.334694911038569,
+        "layer_weights": {
+          "L1": 0.3601835160611539,
+          "L2": 0.3593981297149688,
+          "L5": 0.2804183542238771
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.576160"
+    },
+    {
+      "iteration": 56,
+      "validation_error": 10.22540499865315,
+      "validation_score": 0.8977459500134685,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023126602172851562,
+      "conditions": {
+        "cutting_speed": 97.42090568787954,
+        "feed_rate": 0.1602051130707133,
+        "depth_of_cut": 0.6631147727754245,
+        "layer_weights": {
+          "L1": 0.3611351101038815,
+          "L2": 0.3677066268001595,
+          "L5": 0.27115826309595903
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.576449"
+    },
+    {
+      "iteration": 57,
+      "validation_error": 10.206092751889987,
+      "validation_score": 0.8979390724811002,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002396106719970703,
+      "conditions": {
+        "cutting_speed": 97.42090568787954,
+        "feed_rate": 0.1602051130707133,
+        "depth_of_cut": 0.6631147727754245,
+        "layer_weights": {
+          "L1": 0.3621007224420398,
+          "L2": 0.3761375195304423,
+          "L5": 0.261761758027518
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.576745"
+    },
+    {
+      "iteration": 58,
+      "validation_error": 10.186496009040884,
+      "validation_score": 0.8981350399095912,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023627281188964844,
+      "conditions": {
+        "cutting_speed": 97.42090568787954,
+        "feed_rate": 0.1602051130707133,
+        "depth_of_cut": 0.6631147727754245,
+        "layer_weights": {
+          "L1": 0.36308055958449487,
+          "L2": 0.3846926109628303,
+          "L5": 0.25222682945267483
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.577039"
+    },
+    {
+      "iteration": 59,
+      "validation_error": 9.248582226250754,
+      "validation_score": 0.9075141777374924,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00022745132446289062,
+      "conditions": {
+        "cutting_speed": 80.80190429632417,
+        "feed_rate": 0.15,
+        "depth_of_cut": 0.6649522003001311,
+        "layer_weights": {
+          "L1": 0.3681036592877419,
+          "L2": 0.378008115731498,
+          "L5": 0.25388822498076
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.577324"
+    },
+    {
+      "iteration": 60,
+      "validation_error": 9.145097243762018,
+      "validation_score": 0.9085490275623798,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00020837783813476562,
+      "conditions": {
+        "cutting_speed": 80.80190429632417,
+        "feed_rate": 0.15,
+        "depth_of_cut": 0.6649522003001311,
+        "layer_weights": {
+          "L1": 0.3732779084121788,
+          "L2": 0.3711224782483986,
+          "L5": 0.2555996133394226
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.577590"
+    },
+    {
+      "iteration": 61,
+      "validation_error": 8.813863375180164,
+      "validation_score": 0.9118613662481984,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00033211708068847656,
+      "conditions": {
+        "cutting_speed": 96.2880396702809,
+        "feed_rate": 0.2167818891992625,
+        "depth_of_cut": 0.5953319040872957,
+        "layer_weights": {
+          "L1": 0.3559442346101168,
+          "L2": 0.38022001745878037,
+          "L5": 0.26383574793110287
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.583265"
+    },
+    {
+      "iteration": 62,
+      "validation_error": 9.14220100276619,
+      "validation_score": 0.9085779899723381,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002524852752685547,
+      "conditions": {
+        "cutting_speed": 86.11543494045063,
+        "feed_rate": 0.386283700224345,
+        "depth_of_cut": 0.5971017166464091,
+        "layer_weights": {
+          "L1": 0.3851846219200639,
+          "L2": 0.3522267638784133,
+          "L5": 0.2625886142015228
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.583584"
+    },
+    {
+      "iteration": 63,
+      "validation_error": 8.54689733700453,
+      "validation_score": 0.9145310266299547,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00024962425231933594,
+      "conditions": {
+        "cutting_speed": 86.11543494045063,
+        "feed_rate": 0.386283700224345,
+        "depth_of_cut": 0.5971017166464091,
+        "layer_weights": {
+          "L1": 0.41494980520814695,
+          "L2": 0.3237310974285383,
+          "L5": 0.26131909736331477
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.583893"
+    },
+    {
+      "iteration": 64,
+      "validation_error": 8.046429355017022,
+      "validation_score": 0.9195357064498297,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00024819374084472656,
+      "conditions": {
+        "cutting_speed": 86.11543494045063,
+        "feed_rate": 0.386283700224345,
+        "depth_of_cut": 0.5971017166464091,
+        "layer_weights": {
+          "L1": 0.4452492033242514,
+          "L2": 0.294724000983271,
+          "L5": 0.26002679569247766
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.584201"
+    },
+    {
+      "iteration": 65,
+      "validation_error": 8.555413217923075,
+      "validation_score": 0.9144458678207692,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023436546325683594,
+      "conditions": {
+        "cutting_speed": 92.83295742017037,
+        "feed_rate": 0.3893922509849482,
+        "depth_of_cut": 0.3259261151748848,
+        "layer_weights": {
+          "L1": 0.47999474636670436,
+          "L2": 0.2838798115322181,
+          "L5": 0.23612544210107764
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.584496"
+    },
+    {
+      "iteration": 66,
+      "validation_error": 8.38870438332053,
+      "validation_score": 0.9161129561667947,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002338886260986328,
+      "conditions": {
+        "cutting_speed": 92.83295742017037,
+        "feed_rate": 0.3893922509849482,
+        "depth_of_cut": 0.3259261151748848,
+        "layer_weights": {
+          "L1": 0.5173856416114843,
+          "L2": 0.2722099996290496,
+          "L5": 0.21040435875946606
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.584789"
+    },
+    {
+      "iteration": 67,
+      "validation_error": 8.985370235302437,
+      "validation_score": 0.9101462976469756,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002415180206298828,
+      "conditions": {
+        "cutting_speed": 92.83295742017037,
+        "feed_rate": 0.3893922509849482,
+        "depth_of_cut": 0.3259261151748848,
+        "layer_weights": {
+          "L1": 0.5576232929700456,
+          "L2": 0.25965170650165426,
+          "L5": 0.18272500052830004
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.585089"
+    },
+    {
+      "iteration": 68,
+      "validation_error": 5.592387099901001,
+      "validation_score": 0.94407612900099,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023508071899414062,
+      "conditions": {
+        "cutting_speed": 90.28761119866478,
+        "feed_rate": 0.270666751357369,
+        "depth_of_cut": 0.5149863675191727,
+        "layer_weights": {
+          "L1": 0.5635051694885393,
+          "L2": 0.2525478513917867,
+          "L5": 0.1839469791196739
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.585383"
+    },
+    {
+      "iteration": 69,
+      "validation_error": 5.709250028036554,
+      "validation_score": 0.9429074997196345,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00016927719116210938,
+      "conditions": {
+        "cutting_speed": 90.28761119866478,
+        "feed_rate": 0.270666751357369,
+        "depth_of_cut": 0.5149863675191727,
+        "layer_weights": {
+          "L1": 0.5693483158953171,
+          "L2": 0.24549077269777128,
+          "L5": 0.18516091140691168
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.585611"
+    },
+    {
+      "iteration": 70,
+      "validation_error": 5.825343454424167,
+      "validation_score": 0.9417465654557583,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00015544891357421875,
+      "conditions": {
+        "cutting_speed": 90.28761119866478,
+        "feed_rate": 0.270666751357369,
+        "depth_of_cut": 0.5149863675191727,
+        "layer_weights": {
+          "L1": 0.5751529872146978,
+          "L2": 0.23848016241317396,
+          "L5": 0.1863668503721284
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.585802"
+    },
+    {
+      "iteration": 71,
+      "validation_error": 5.940672445965288,
+      "validation_score": 0.9405932755403471,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00024080276489257812,
+      "conditions": {
+        "cutting_speed": 90.28761119866478,
+        "feed_rate": 0.270666751357369,
+        "depth_of_cut": 0.5149863675191727,
+        "layer_weights": {
+          "L1": 0.5809194367917537,
+          "L2": 0.23151571455967598,
+          "L5": 0.18756484864857023
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.586096"
+    },
+    {
+      "iteration": 72,
+      "validation_error": 8.982519300543244,
+      "validation_score": 0.9101748069945675,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00028204917907714844,
+      "conditions": {
+        "cutting_speed": 100.13633481484302,
+        "feed_rate": 0.2086634665509687,
+        "depth_of_cut": 0.41497068697959477,
+        "layer_weights": {
+          "L1": 0.62402527791927,
+          "L2": 0.20829272670472648,
+          "L5": 0.16768199537600356
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.586436"
+    },
+    {
+      "iteration": 73,
+      "validation_error": 9.884455621552146,
+      "validation_score": 0.9011554437844785,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023412704467773438,
+      "conditions": {
+        "cutting_speed": 100.13633481484302,
+        "feed_rate": 0.2086634665509687,
+        "depth_of_cut": 0.41497068697959477,
+        "layer_weights": {
+          "L1": 0.669122093969715,
+          "L2": 0.18399711422988127,
+          "L5": 0.1468807918004037
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.586734"
+    },
+    {
+      "iteration": 74,
+      "validation_error": 10.665032184163673,
+      "validation_score": 0.8933496781583633,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00024700164794921875,
+      "conditions": {
+        "cutting_speed": 100.13633481484302,
+        "feed_rate": 0.2086634665509687,
+        "depth_of_cut": 0.41497068697959477,
+        "layer_weights": {
+          "L1": 0.7,
+          "L2": 0.1585793346911451,
+          "L5": 0.1251188211082721
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.587040"
+    },
+    {
+      "iteration": 75,
+      "validation_error": 11.281487249715822,
+      "validation_score": 0.8871851275028417,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023436546325683594,
+      "conditions": {
+        "cutting_speed": 100.01688824945,
+        "feed_rate": 0.1668263284058972,
+        "depth_of_cut": 0.52961434240583,
+        "layer_weights": {
+          "L1": 0.7,
+          "L2": 0.16588473555170502,
+          "L5": 0.10686448511678914
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.587333"
+    },
+    {
+      "iteration": 76,
+      "validation_error": 11.251140548490012,
+      "validation_score": 0.8874885945150999,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00016260147094726562,
+      "conditions": {
+        "cutting_speed": 100.01688824945,
+        "feed_rate": 0.1668263284058972,
+        "depth_of_cut": 0.52961434240583,
+        "layer_weights": {
+          "L1": 0.7,
+          "L2": 0.17578389079107512,
+          "L5": 0.1
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.587554"
+    },
+    {
+      "iteration": 77,
+      "validation_error": 11.149834145605544,
+      "validation_score": 0.8885016585439446,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00015687942504882812,
+      "conditions": {
+        "cutting_speed": 100.01688824945,
+        "feed_rate": 0.1668263284058972,
+        "depth_of_cut": 0.52961434240583,
+        "layer_weights": {
+          "L1": 0.7,
+          "L2": 0.1859145310795219,
+          "L5": 0.1
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.587745"
+    },
+    {
+      "iteration": 78,
+      "validation_error": 11.061593232296921,
+      "validation_score": 0.8893840676770308,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00024437904357910156,
+      "conditions": {
+        "cutting_speed": 100.01688824945,
+        "feed_rate": 0.1668263284058972,
+        "depth_of_cut": 0.52961434240583,
+        "layer_weights": {
+          "L1": 0.7,
+          "L2": 0.1947386224103841,
+          "L5": 0.1
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.588043"
+    },
+    {
+      "iteration": 79,
+      "validation_error": 9.75277530906291,
+      "validation_score": 0.9024722469093709,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023102760314941406,
+      "conditions": {
+        "cutting_speed": 93.26950612065603,
+        "feed_rate": 0.22912068024184198,
+        "depth_of_cut": 0.5809427664299692,
+        "layer_weights": {
+          "L1": 0.7,
+          "L2": 0.18855256632385717,
+          "L5": 0.1
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.588332"
+    },
+    {
+      "iteration": 80,
+      "validation_error": 9.80196385728152,
+      "validation_score": 0.9019803614271849,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00022912025451660156,
+      "conditions": {
+        "cutting_speed": 93.26950612065603,
+        "feed_rate": 0.22912068024184198,
+        "depth_of_cut": 0.5809427664299692,
+        "layer_weights": {
+          "L1": 0.7,
+          "L2": 0.1836337115019961,
+          "L5": 0.1
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.588620"
+    },
+    {
+      "iteration": 81,
+      "validation_error": 9.841503907867883,
+      "validation_score": 0.9015849609213211,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002295970916748047,
+      "conditions": {
+        "cutting_speed": 93.26950612065603,
+        "feed_rate": 0.22912068024184198,
+        "depth_of_cut": 0.5809427664299692,
+        "layer_weights": {
+          "L1": 0.7,
+          "L2": 0.17967970644335965,
+          "L5": 0.1
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.588907"
+    },
+    {
+      "iteration": 82,
+      "validation_error": 9.873566822423154,
+      "validation_score": 0.9012643317757685,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00022912025451660156,
+      "conditions": {
+        "cutting_speed": 93.26950612065603,
+        "feed_rate": 0.22912068024184198,
+        "depth_of_cut": 0.5809427664299692,
+        "layer_weights": {
+          "L1": 0.7,
+          "L2": 0.17647341498783267,
+          "L5": 0.1
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.589190"
+    },
+    {
+      "iteration": 83,
+      "validation_error": 9.26658368905576,
+      "validation_score": 0.9073341631094424,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00022983551025390625,
+      "conditions": {
+        "cutting_speed": 87.08391359407679,
+        "feed_rate": 0.20858372818988424,
+        "depth_of_cut": 0.4097696887566797,
+        "layer_weights": {
+          "L1": 0.6598236112519471,
+          "L2": 0.20154112436183635,
+          "L5": 0.13863526438621643
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.589477"
+    },
+    {
+      "iteration": 84,
+      "validation_error": 8.210579391897936,
+      "validation_score": 0.9178942060810207,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002295970916748047,
+      "conditions": {
+        "cutting_speed": 87.08391359407679,
+        "feed_rate": 0.20858372818988424,
+        "depth_of_cut": 0.4097696887566797,
+        "layer_weights": {
+          "L1": 0.6070233963940559,
+          "L2": 0.22080913937268756,
+          "L5": 0.1721674642332566
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.589764"
+    },
+    {
+      "iteration": 85,
+      "validation_error": 7.288629122215409,
+      "validation_score": 0.9271137087778459,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002288818359375,
+      "conditions": {
+        "cutting_speed": 87.08391359407679,
+        "feed_rate": 0.20858372818988424,
+        "depth_of_cut": 0.4097696887566797,
+        "layer_weights": {
+          "L1": 0.5569718084484736,
+          "L2": 0.23907411709007048,
+          "L5": 0.20395407446145594
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.590059"
+    },
+    {
+      "iteration": 86,
+      "validation_error": 6.983472035535807,
+      "validation_score": 0.9301652796446419,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023698806762695312,
+      "conditions": {
+        "cutting_speed": 98.2502188858212,
+        "feed_rate": 0.23200335862532306,
+        "depth_of_cut": 0.3830199501065161,
+        "layer_weights": {
+          "L1": 0.5443061574399367,
+          "L2": 0.24293492776565534,
+          "L5": 0.21275891479440784
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.590353"
+    },
+    {
+      "iteration": 87,
+      "validation_error": 6.907726926561542,
+      "validation_score": 0.9309227307343846,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002315044403076172,
+      "conditions": {
+        "cutting_speed": 98.2502188858212,
+        "feed_rate": 0.23200335862532306,
+        "depth_of_cut": 0.3830199501065161,
+        "layer_weights": {
+          "L1": 0.5318818093368496,
+          "L2": 0.24672218321436862,
+          "L5": 0.22139600744878177
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.590669"
+    },
+    {
+      "iteration": 88,
+      "validation_error": 6.83342489499852,
+      "validation_score": 0.9316657510500148,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00024771690368652344,
+      "conditions": {
+        "cutting_speed": 98.2502188858212,
+        "feed_rate": 0.23200335862532306,
+        "depth_of_cut": 0.3830199501065161,
+        "layer_weights": {
+          "L1": 0.5196941668948906,
+          "L2": 0.2504372847925198,
+          "L5": 0.22986854831258974
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.590976"
+    },
+    {
+      "iteration": 89,
+      "validation_error": 6.612900564004983,
+      "validation_score": 0.9338709943599501,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00018835067749023438,
+      "conditions": {
+        "cutting_speed": 87.04634100418626,
+        "feed_rate": 0.15796427691155698,
+        "depth_of_cut": 0.5757684613654324,
+        "layer_weights": {
+          "L1": 0.529864867073646,
+          "L2": 0.2644375422930044,
+          "L5": 0.20569759063334955
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.591221"
+    },
+    {
+      "iteration": 90,
+      "validation_error": 6.702452601317038,
+      "validation_score": 0.9329754739868297,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002384185791015625,
+      "conditions": {
+        "cutting_speed": 87.04634100418626,
+        "feed_rate": 0.15796427691155698,
+        "depth_of_cut": 0.5757684613654324,
+        "layer_weights": {
+          "L1": 0.5400400595725984,
+          "L2": 0.2784439835997586,
+          "L5": 0.18151595682764315
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.591512"
+    },
+    {
+      "iteration": 91,
+      "validation_error": 6.906046337384487,
+      "validation_score": 0.9309395366261551,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0001919269561767578,
+      "conditions": {
+        "cutting_speed": 87.04634100418626,
+        "feed_rate": 0.15796427691155698,
+        "depth_of_cut": 0.5757684613654324,
+        "layer_weights": {
+          "L1": 0.5502197463759708,
+          "L2": 0.2924566114441219,
+          "L5": 0.15732364217990735
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.591898"
+    },
+    {
+      "iteration": 92,
+      "validation_error": 7.239238570415147,
+      "validation_score": 0.9276076142958485,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023174285888671875,
+      "conditions": {
+        "cutting_speed": 87.04634100418626,
+        "feed_rate": 0.15796427691155698,
+        "depth_of_cut": 0.5757684613654324,
+        "layer_weights": {
+          "L1": 0.5604039294688632,
+          "L2": 0.3064754285586406,
+          "L5": 0.13312064197249626
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.592184"
+    },
+    {
+      "iteration": 93,
+      "validation_error": 10.958835868530581,
+      "validation_score": 0.8904116413146942,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002300739288330078,
+      "conditions": {
+        "cutting_speed": 89.7442205354843,
+        "feed_rate": 0.3588894852285638,
+        "depth_of_cut": 0.6936455614898148,
+        "layer_weights": {
+          "L1": 0.5706335980534949,
+          "L2": 0.3069891069205279,
+          "L5": 0.12237729502597738
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.592472"
+    },
+    {
+      "iteration": 94,
+      "validation_error": 11.177268158698851,
+      "validation_score": 0.8882273184130115,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002415180206298828,
+      "conditions": {
+        "cutting_speed": 89.7442205354843,
+        "feed_rate": 0.3588894852285638,
+        "depth_of_cut": 0.6936455614898148,
+        "layer_weights": {
+          "L1": 0.5810330105816712,
+          "L2": 0.30751130890076495,
+          "L5": 0.1114556805175639
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.592772"
+    },
+    {
+      "iteration": 95,
+      "validation_error": 11.399324961042069,
+      "validation_score": 0.8860067503895793,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023126602172851562,
+      "conditions": {
+        "cutting_speed": 89.7442205354843,
+        "feed_rate": 0.3588894852285638,
+        "depth_of_cut": 0.6936455614898148,
+        "layer_weights": {
+          "L1": 0.5916049836653023,
+          "L2": 0.3080421759342947,
+          "L5": 0.10035284040040303
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.593061"
+    },
+    {
+      "iteration": 96,
+      "validation_error": 6.136238855607933,
+      "validation_score": 0.9386376114439207,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00022864341735839844,
+      "conditions": {
+        "cutting_speed": 80.40794820300744,
+        "feed_rate": 0.2291657913045801,
+        "depth_of_cut": 0.7422899818452136,
+        "layer_weights": {
+          "L1": 0.5682158326740654,
+          "L2": 0.3107073428858273,
+          "L5": 0.12107682444010734
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.593347"
+    },
+    {
+      "iteration": 97,
+      "validation_error": 5.7332955140524975,
+      "validation_score": 0.9426670448594751,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023818016052246094,
+      "conditions": {
+        "cutting_speed": 80.40794820300744,
+        "feed_rate": 0.2291657913045801,
+        "depth_of_cut": 0.7422899818452136,
+        "layer_weights": {
+          "L1": 0.5454776790485425,
+          "L2": 0.31329832943357844,
+          "L5": 0.14122399151787904
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.593644"
+    },
+    {
+      "iteration": 98,
+      "validation_error": 5.341567417290811,
+      "validation_score": 0.9465843258270918,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002307891845703125,
+      "conditions": {
+        "cutting_speed": 80.40794820300744,
+        "feed_rate": 0.2291657913045801,
+        "depth_of_cut": 0.7422899818452136,
+        "layer_weights": {
+          "L1": 0.5233724033807089,
+          "L2": 0.31581720026332777,
+          "L5": 0.16081039635596342
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.593933"
+    },
+    {
+      "iteration": 99,
+      "validation_error": 10.22351971249105,
+      "validation_score": 0.8977648028750895,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023794174194335938,
+      "conditions": {
+        "cutting_speed": 85.88953295808815,
+        "feed_rate": 0.19559318388725588,
+        "depth_of_cut": 0.8,
+        "layer_weights": {
+          "L1": 0.4924730722379593,
+          "L2": 0.34473619754482543,
+          "L5": 0.16279073021721518
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.594280"
+    },
+    {
+      "iteration": 100,
+      "validation_error": 10.822067682461482,
+      "validation_score": 0.8917793231753852,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00022554397583007812,
+      "conditions": {
+        "cutting_speed": 85.88953295808815,
+        "feed_rate": 0.19559318388725588,
+        "depth_of_cut": 0.8,
+        "layer_weights": {
+          "L1": 0.46049628592529956,
+          "L2": 0.37466359604334704,
+          "L5": 0.16484011803135346
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.594563"
+    },
+    {
+      "iteration": 101,
+      "validation_error": 11.441486932839393,
+      "validation_score": 0.885585130671606,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023102760314941406,
+      "conditions": {
+        "cutting_speed": 85.88953295808815,
+        "feed_rate": 0.19559318388725588,
+        "depth_of_cut": 0.8,
+        "layer_weights": {
+          "L1": 0.42740447373811447,
+          "L2": 0.4056345585622426,
+          "L5": 0.16696096769964294
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.594863"
+    },
+    {
+      "iteration": 102,
+      "validation_error": 12.082505242128269,
+      "validation_score": 0.8791749475787173,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002307891845703125,
+      "conditions": {
+        "cutting_speed": 85.88953295808815,
+        "feed_rate": 0.19559318388725588,
+        "depth_of_cut": 0.8,
+        "layer_weights": {
+          "L1": 0.3931587548867992,
+          "L2": 0.43768547402668634,
+          "L5": 0.16915577108651436
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.595152"
+    },
+    {
+      "iteration": 103,
+      "validation_error": 11.768217365443315,
+      "validation_score": 0.8823178263455669,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002155303955078125,
+      "conditions": {
+        "cutting_speed": 86.39416772750046,
+        "feed_rate": 0.2717763474707701,
+        "depth_of_cut": 0.8,
+        "layer_weights": {
+          "L1": 0.38542038449544197,
+          "L2": 0.399003133564821,
+          "L5": 0.21557648193973705
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.595434"
+    },
+    {
+      "iteration": 104,
+      "validation_error": 11.925313951104254,
+      "validation_score": 0.8807468604889575,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00017952919006347656,
+      "conditions": {
+        "cutting_speed": 86.39416772750046,
+        "feed_rate": 0.2717763474707701,
+        "depth_of_cut": 0.8,
+        "layer_weights": {
+          "L1": 0.3775655552123951,
+          "L2": 0.3597386417881024,
+          "L5": 0.26269580299950257
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.595649"
+    },
+    {
+      "iteration": 105,
+      "validation_error": 12.084774767647023,
+      "validation_score": 0.8791522523235298,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.000156402587890625,
+      "conditions": {
+        "cutting_speed": 86.39416772750046,
+        "feed_rate": 0.2717763474707701,
+        "depth_of_cut": 0.8,
+        "layer_weights": {
+          "L1": 0.36959251438525664,
+          "L2": 0.31988323758876563,
+          "L5": 0.3105242480259778
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.595839"
+    },
+    {
+      "iteration": 106,
+      "validation_error": 12.658074835483202,
+      "validation_score": 0.873419251645168,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00015616416931152344,
+      "conditions": {
+        "cutting_speed": 86.39416772750046,
+        "feed_rate": 0.2717763474707701,
+        "depth_of_cut": 0.8,
+        "layer_weights": {
+          "L1": 0.36149948298501744,
+          "L2": 0.2794280280084302,
+          "L5": 0.35907248900655236
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.596029"
+    },
+    {
+      "iteration": 107,
+      "validation_error": 10.124011055165386,
+      "validation_score": 0.8987598894483462,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00017023086547851562,
+      "conditions": {
+        "cutting_speed": 96.2540496996433,
+        "feed_rate": 0.21253457537167342,
+        "depth_of_cut": 0.5721503428638726,
+        "layer_weights": {
+          "L1": 0.35395541536368924,
+          "L2": 0.2761867456805587,
+          "L5": 0.369857838955752
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.596233"
+    },
+    {
+      "iteration": 108,
+      "validation_error": 10.355647312327008,
+      "validation_score": 0.8964435268767299,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00024271011352539062,
+      "conditions": {
+        "cutting_speed": 96.2540496996433,
+        "feed_rate": 0.21253457537167342,
+        "depth_of_cut": 0.5721503428638726,
+        "layer_weights": {
+          "L1": 0.3458542429594118,
+          "L2": 0.27270610522675504,
+          "L5": 0.3814396518138331
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.596529"
+    },
+    {
+      "iteration": 109,
+      "validation_error": 10.604389151416921,
+      "validation_score": 0.8939561084858307,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023102760314941406,
+      "conditions": {
+        "cutting_speed": 96.2540496996433,
+        "feed_rate": 0.21253457537167342,
+        "depth_of_cut": 0.5721503428638726,
+        "layer_weights": {
+          "L1": 0.3371548254013979,
+          "L2": 0.2689684308302732,
+          "L5": 0.39387674376832876
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.596817"
+    },
+    {
+      "iteration": 110,
+      "validation_error": 10.871499763857278,
+      "validation_score": 0.8912850023614272,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00022864341735839844,
+      "conditions": {
+        "cutting_speed": 96.2540496996433,
+        "feed_rate": 0.21253457537167342,
+        "depth_of_cut": 0.5721503428638726,
+        "layer_weights": {
+          "L1": 0.32781298423668936,
+          "L2": 0.264954741372964,
+          "L5": 0.4072322743903467
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.597104"
+    },
+    {
+      "iteration": 111,
+      "validation_error": 12.389270508352377,
+      "validation_score": 0.8761072949164762,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00019216537475585938,
+      "conditions": {
+        "cutting_speed": 82.77234348896049,
+        "feed_rate": 0.17223870622865267,
+        "depth_of_cut": 0.7146693489525697,
+        "layer_weights": {
+          "L1": 0.298219790395383,
+          "L2": 0.27337680447976875,
+          "L5": 0.4284034051248483
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.597353"
+    },
+    {
+      "iteration": 112,
+      "validation_error": 12.817250670645608,
+      "validation_score": 0.8718274932935439,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0001804828643798828,
+      "conditions": {
+        "cutting_speed": 82.77234348896049,
+        "feed_rate": 0.17223870622865267,
+        "depth_of_cut": 0.7146693489525697,
+        "layer_weights": {
+          "L1": 0.2683080675360619,
+          "L2": 0.28188951922442823,
+          "L5": 0.4498024132395098
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.597586"
+    },
+    {
+      "iteration": 113,
+      "validation_error": 13.2498374361178,
+      "validation_score": 0.8675016256388219,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00015735626220703125,
+      "conditions": {
+        "cutting_speed": 82.77234348896049,
+        "feed_rate": 0.17223870622865267,
+        "depth_of_cut": 0.7146693489525697,
+        "layer_weights": {
+          "L1": 0.23807438714283627,
+          "L2": 0.29049386134404415,
+          "L5": 0.4714317515131195
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.597777"
+    },
+    {
+      "iteration": 114,
+      "validation_error": 13.687080388358849,
+      "validation_score": 0.8631291961164115,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00015401840209960938,
+      "conditions": {
+        "cutting_speed": 82.77234348896049,
+        "feed_rate": 0.17223870622865267,
+        "depth_of_cut": 0.7146693489525697,
+        "layer_weights": {
+          "L1": 0.20751528379667536,
+          "L2": 0.2991908170781527,
+          "L5": 0.49329389912517185
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.597964"
+    },
+    {
+      "iteration": 115,
+      "validation_error": 14.28865731029146,
+      "validation_score": 0.8571134268970854,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00015687942504882812,
+      "conditions": {
+        "cutting_speed": 82.77234348896049,
+        "feed_rate": 0.17223870622865267,
+        "depth_of_cut": 0.7146693489525697,
+        "layer_weights": {
+          "L1": 0.17662725477819738,
+          "L2": 0.3079813832817685,
+          "L5": 0.5153913619400341
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.598154"
+    },
+    {
+      "iteration": 116,
+      "validation_error": 13.60780193277764,
+      "validation_score": 0.8639219806722236,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00016736984252929688,
+      "conditions": {
+        "cutting_speed": 75.0280721997249,
+        "feed_rate": 0.15844820745030946,
+        "depth_of_cut": 0.7429408149469288,
+        "layer_weights": {
+          "L1": 0.17838017427617245,
+          "L2": 0.31883838381339863,
+          "L5": 0.502781441910429
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.598354"
+    },
+    {
+      "iteration": 117,
+      "validation_error": 13.572069971383103,
+      "validation_score": 0.864279300286169,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00019621849060058594,
+      "conditions": {
+        "cutting_speed": 75.0280721997249,
+        "feed_rate": 0.15844820745030946,
+        "depth_of_cut": 0.7429408149469288,
+        "layer_weights": {
+          "L1": 0.1801667723458993,
+          "L2": 0.32990397822046713,
+          "L5": 0.4899292494336336
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.598589"
+    },
+    {
+      "iteration": 118,
+      "validation_error": 13.535651497329514,
+      "validation_score": 0.8646434850267048,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0001876354217529297,
+      "conditions": {
+        "cutting_speed": 75.0280721997249,
+        "feed_rate": 0.15844820745030946,
+        "depth_of_cut": 0.7429408149469288,
+        "layer_weights": {
+          "L1": 0.18198769604857878,
+          "L2": 0.3411821741849064,
+          "L5": 0.47683012976651484
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.598811"
+    },
+    {
+      "iteration": 119,
+      "validation_error": 13.498533320755117,
+      "validation_score": 0.8650146667924489,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00015783309936523438,
+      "conditions": {
+        "cutting_speed": 75.0280721997249,
+        "feed_rate": 0.15844820745030946,
+        "depth_of_cut": 0.7429408149469288,
+        "layer_weights": {
+          "L1": 0.18384360487729864,
+          "L2": 0.35267705638762314,
+          "L5": 0.4634793387350782
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.599002"
+    },
+    {
+      "iteration": 120,
+      "validation_error": 12.212242910411614,
+      "validation_score": 0.8778775708958839,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00016045570373535156,
+      "conditions": {
+        "cutting_speed": 69.97007740539314,
+        "feed_rate": 0.23183732246215638,
+        "depth_of_cut": 0.8,
+        "layer_weights": {
+          "L1": 0.18401551843008176,
+          "L2": 0.34180676094045037,
+          "L5": 0.47417772062946795
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.599196"
+    },
+    {
+      "iteration": 121,
+      "validation_error": 13.273859974724543,
+      "validation_score": 0.8672614002527546,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0003266334533691406,
+      "conditions": {
+        "cutting_speed": 71.46224235540814,
+        "feed_rate": 0.2922913022471632,
+        "depth_of_cut": 0.7187529042660835,
+        "layer_weights": {
+          "L1": 0.1875738230743319,
+          "L2": 0.3678798132178299,
+          "L5": 0.44454636370783807
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.615077"
+    },
+    {
+      "iteration": 122,
+      "validation_error": 18.86991546006213,
+      "validation_score": 0.8113008453993786,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00021886825561523438,
+      "conditions": {
+        "cutting_speed": 95.43934565536799,
+        "feed_rate": 0.38876100099440913,
+        "depth_of_cut": 0.7403945316456264,
+        "layer_weights": {
+          "L1": 0.16594887670096622,
+          "L2": 0.3803034864369895,
+          "L5": 0.4537476368620442
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.615361"
+    },
+    {
+      "iteration": 123,
+      "validation_error": 19.298951301103642,
+      "validation_score": 0.8070104869889636,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.000202178955078125,
+      "conditions": {
+        "cutting_speed": 95.43934565536799,
+        "feed_rate": 0.38876100099440913,
+        "depth_of_cut": 0.7403945316456264,
+        "layer_weights": {
+          "L1": 0.14449708464889052,
+          "L2": 0.3926276813653339,
+          "L5": 0.46287523398577546
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.615621"
+    },
+    {
+      "iteration": 124,
+      "validation_error": 19.724551785192965,
+      "validation_score": 0.8027544821480703,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00022101402282714844,
+      "conditions": {
+        "cutting_speed": 95.43934565536799,
+        "feed_rate": 0.38876100099440913,
+        "depth_of_cut": 0.7403945316456264,
+        "layer_weights": {
+          "L1": 0.1232170604444247,
+          "L2": 0.4048531945410664,
+          "L5": 0.4719297450145089
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.615901"
+    },
+    {
+      "iteration": 125,
+      "validation_error": 16.585330254139656,
+      "validation_score": 0.8341466974586035,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00018835067749023438,
+      "conditions": {
+        "cutting_speed": 95.43934565536799,
+        "feed_rate": 0.38876100099440913,
+        "depth_of_cut": 0.7403945316456264,
+        "layer_weights": {
+          "L1": 0.1732170604444247,
+          "L2": 0.33071317582223014,
+          "L5": 0.4960697637333451
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.616143"
+    },
+    {
+      "iteration": 126,
+      "validation_error": 12.549958479782031,
+      "validation_score": 0.8745004152021797,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00018906593322753906,
+      "conditions": {
+        "cutting_speed": 87.6669120423795,
+        "feed_rate": 0.2134463287310005,
+        "depth_of_cut": 0.5419655928181422,
+        "layer_weights": {
+          "L1": 0.2232170604444247,
+          "L2": 0.3107131758222301,
+          "L5": 0.4660697637333452
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.616389"
+    },
+    {
+      "iteration": 127,
+      "validation_error": 11.73569496333743,
+      "validation_score": 0.8826430503666257,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00015354156494140625,
+      "conditions": {
+        "cutting_speed": 87.6669120423795,
+        "feed_rate": 0.2134463287310005,
+        "depth_of_cut": 0.5419655928181422,
+        "layer_weights": {
+          "L1": 0.2732170604444247,
+          "L2": 0.29071317582223016,
+          "L5": 0.4360697637333452
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.616580"
+    },
+    {
+      "iteration": 128,
+      "validation_error": 11.135694963337428,
+      "validation_score": 0.8886430503666257,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00019073486328125,
+      "conditions": {
+        "cutting_speed": 87.6669120423795,
+        "feed_rate": 0.2134463287310005,
+        "depth_of_cut": 0.5419655928181422,
+        "layer_weights": {
+          "L1": 0.32321706044442466,
+          "L2": 0.27071317582223015,
+          "L5": 0.4060697637333452
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.616806"
+    },
+    {
+      "iteration": 129,
+      "validation_error": 9.504090278976028,
+      "validation_score": 0.9049590972102397,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00019621849060058594,
+      "conditions": {
+        "cutting_speed": 87.6669120423795,
+        "feed_rate": 0.2134463287310005,
+        "depth_of_cut": 0.5419655928181422,
+        "layer_weights": {
+          "L1": 0.3264111433566665,
+          "L2": 0.2742763711343511,
+          "L5": 0.3993124855089825
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.617046"
+    },
+    {
+      "iteration": 130,
+      "validation_error": 8.824327308984563,
+      "validation_score": 0.9117567269101544,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0001976490020751953,
+      "conditions": {
+        "cutting_speed": 74.36994928856267,
+        "feed_rate": 0.2561097764457372,
+        "depth_of_cut": 0.790725511177519,
+        "layer_weights": {
+          "L1": 0.33298067360278166,
+          "L2": 0.26716030427181486,
+          "L5": 0.39985902212540353
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.617298"
+    },
+    {
+      "iteration": 131,
+      "validation_error": 8.835730798026674,
+      "validation_score": 0.9116426920197332,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00016951560974121094,
+      "conditions": {
+        "cutting_speed": 74.36994928856267,
+        "feed_rate": 0.2561097764457372,
+        "depth_of_cut": 0.790725511177519,
+        "layer_weights": {
+          "L1": 0.33983433755891196,
+          "L2": 0.25973646586357896,
+          "L5": 0.40042919657750914
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.617521"
+    },
+    {
+      "iteration": 132,
+      "validation_error": 8.847627490620225,
+      "validation_score": 0.9115237250937978,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002002716064453125,
+      "conditions": {
+        "cutting_speed": 74.36994928856267,
+        "feed_rate": 0.2561097764457372,
+        "depth_of_cut": 0.790725511177519,
+        "layer_weights": {
+          "L1": 0.34698442407405294,
+          "L2": 0.25199154471876045,
+          "L5": 0.4010240312071866
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.617755"
+    },
+    {
+      "iteration": 133,
+      "validation_error": 8.860038717933438,
+      "validation_score": 0.9113996128206656,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00019550323486328125,
+      "conditions": {
+        "cutting_speed": 74.36994928856267,
+        "feed_rate": 0.2561097764457372,
+        "depth_of_cut": 0.790725511177519,
+        "layer_weights": {
+          "L1": 0.35444375349277557,
+          "L2": 0.24391165393437714,
+          "L5": 0.4016445925728473
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.617986"
+    },
+    {
+      "iteration": 134,
+      "validation_error": 9.66161050102135,
+      "validation_score": 0.9033838949897866,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00020766258239746094,
+      "conditions": {
+        "cutting_speed": 97.40862273597435,
+        "feed_rate": 0.2938279768829931,
+        "depth_of_cut": 0.4627475811530005,
+        "layer_weights": {
+          "L1": 0.35806985336467295,
+          "L2": 0.2535373567037311,
+          "L5": 0.3883927899315959
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.618249"
+    },
+    {
+      "iteration": 135,
+      "validation_error": 9.388171480859071,
+      "validation_score": 0.9061182851914092,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00021386146545410156,
+      "conditions": {
+        "cutting_speed": 97.40862273597435,
+        "feed_rate": 0.2938279768829931,
+        "depth_of_cut": 0.4627475811530005,
+        "layer_weights": {
+          "L1": 0.36181091872319143,
+          "L2": 0.2634682423533266,
+          "L5": 0.37472083892348196
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.618517"
+    },
+    {
+      "iteration": 136,
+      "validation_error": 9.106063077302863,
+      "validation_score": 0.9089393692269714,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00025463104248046875,
+      "conditions": {
+        "cutting_speed": 97.40862273597435,
+        "feed_rate": 0.2938279768829931,
+        "depth_of_cut": 0.4627475811530005,
+        "layer_weights": {
+          "L1": 0.3656705945487731,
+          "L2": 0.27371398670555536,
+          "L5": 0.3606154187456716
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.618827"
+    },
+    {
+      "iteration": 137,
+      "validation_error": 8.815010427575693,
+      "validation_score": 0.9118498957242431,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002193450927734375,
+      "conditions": {
+        "cutting_speed": 97.40862273597435,
+        "feed_rate": 0.2938279768829931,
+        "depth_of_cut": 0.4627475811530005,
+        "layer_weights": {
+          "L1": 0.369652641385955,
+          "L2": 0.2842845723547319,
+          "L5": 0.3460627862593131
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.619107"
+    },
+    {
+      "iteration": 138,
+      "validation_error": 9.065931307119701,
+      "validation_score": 0.909340686928803,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002357959747314453,
+      "conditions": {
+        "cutting_speed": 76.80119674018076,
+        "feed_rate": 0.3194163711852126,
+        "depth_of_cut": 0.6885945473286188,
+        "layer_weights": {
+          "L1": 0.3968743440002324,
+          "L2": 0.2764077315033848,
+          "L5": 0.3267179244963827
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.619398"
+    },
+    {
+      "iteration": 139,
+      "validation_error": 8.678031382594423,
+      "validation_score": 0.9132196861740558,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00024819374084472656,
+      "conditions": {
+        "cutting_speed": 76.80119674018076,
+        "feed_rate": 0.3194163711852126,
+        "depth_of_cut": 0.6885945473286188,
+        "layer_weights": {
+          "L1": 0.4241665948287239,
+          "L2": 0.26851047690115726,
+          "L5": 0.30732292827011887
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.619705"
+    },
+    {
+      "iteration": 140,
+      "validation_error": 8.289126170216406,
+      "validation_score": 0.9171087382978359,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023651123046875,
+      "conditions": {
+        "cutting_speed": 76.80119674018076,
+        "feed_rate": 0.3194163711852126,
+        "depth_of_cut": 0.6885945473286188,
+        "layer_weights": {
+          "L1": 0.45152957670534677,
+          "L2": 0.26059275564343515,
+          "L5": 0.287877667651218
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.620001"
+    },
+    {
+      "iteration": 141,
+      "validation_error": 10.709317878668122,
+      "validation_score": 0.8929068212133188,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00024175643920898438,
+      "conditions": {
+        "cutting_speed": 86.86876091451609,
+        "feed_rate": 0.18859956882215423,
+        "depth_of_cut": 0.7967188956566663,
+        "layer_weights": {
+          "L1": 0.4503927776556493,
+          "L2": 0.2358639078549674,
+          "L5": 0.3137433144893833
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.620303"
+    },
+    {
+      "iteration": 142,
+      "validation_error": 11.253602846927624,
+      "validation_score": 0.8874639715307238,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002512931823730469,
+      "conditions": {
+        "cutting_speed": 86.86876091451609,
+        "feed_rate": 0.18859956882215423,
+        "depth_of_cut": 0.7967188956566663,
+        "layer_weights": {
+          "L1": 0.4491967073649016,
+          "L2": 0.20984572973274002,
+          "L5": 0.34095756290235846
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.620614"
+    },
+    {
+      "iteration": 143,
+      "validation_error": 11.8262661337319,
+      "validation_score": 0.881737338662681,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002391338348388672,
+      "conditions": {
+        "cutting_speed": 86.86876091451609,
+        "feed_rate": 0.18859956882215423,
+        "depth_of_cut": 0.7967188956566663,
+        "layer_weights": {
+          "L1": 0.4479382755067908,
+          "L2": 0.18247099725063687,
+          "L5": 0.36959072724257225
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.620914"
+    },
+    {
+      "iteration": 144,
+      "validation_error": 12.428787348128404,
+      "validation_score": 0.875712126518716,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00024819374084472656,
+      "conditions": {
+        "cutting_speed": 86.86876091451609,
+        "feed_rate": 0.18859956882215423,
+        "depth_of_cut": 0.7967188956566663,
+        "layer_weights": {
+          "L1": 0.44661423062936306,
+          "L2": 0.15366898140823942,
+          "L5": 0.3997167879623974
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.621222"
+    },
+    {
+      "iteration": 145,
+      "validation_error": 12.110923828416182,
+      "validation_score": 0.8788907617158381,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00024318695068359375,
+      "conditions": {
+        "cutting_speed": 67.75699914788929,
+        "feed_rate": 0.1847758866896013,
+        "depth_of_cut": 0.7773168837401035,
+        "layer_weights": {
+          "L1": 0.46698630535207164,
+          "L2": 0.13582505850652124,
+          "L5": 0.3971886361414072
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.621525"
+    },
+    {
+      "iteration": 146,
+      "validation_error": 12.059732889394379,
+      "validation_score": 0.8794026711060562,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023984909057617188,
+      "conditions": {
+        "cutting_speed": 67.75699914788929,
+        "feed_rate": 0.1847758866896013,
+        "depth_of_cut": 0.7773168837401035,
+        "layer_weights": {
+          "L1": 0.4876113648563956,
+          "L2": 0.11775954595328743,
+          "L5": 0.39462908919031703
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.621824"
+    },
+    {
+      "iteration": 147,
+      "validation_error": 12.172454185579578,
+      "validation_score": 0.8782754581442043,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023818016052246094,
+      "conditions": {
+        "cutting_speed": 67.75699914788929,
+        "feed_rate": 0.1847758866896013,
+        "depth_of_cut": 0.7773168837401035,
+        "layer_weights": {
+          "L1": 0.5084925507614682,
+          "L2": 0.1,
+          "L5": 0.3920377572376858
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.622121"
+    },
+    {
+      "iteration": 148,
+      "validation_error": 13.524727389726607,
+      "validation_score": 0.8647527261027339,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.0002703666687011719,
+      "conditions": {
+        "cutting_speed": 83.01413460790246,
+        "feed_rate": 0.31304181657919805,
+        "depth_of_cut": 0.7896310436143544,
+        "layer_weights": {
+          "L1": 0.5089246117719015,
+          "L2": 0.1,
+          "L5": 0.39500876820610564
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.622451"
+    },
+    {
+      "iteration": 149,
+      "validation_error": 13.52802366239107,
+      "validation_score": 0.8647197633760892,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00023651123046875,
+      "conditions": {
+        "cutting_speed": 83.01413460790246,
+        "feed_rate": 0.31304181657919805,
+        "depth_of_cut": 0.7896310436143544,
+        "layer_weights": {
+          "L1": 0.5076140080099283,
+          "L2": 0.1,
+          "L5": 0.3966489992345252
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.622748"
+    },
+    {
+      "iteration": 150,
+      "validation_error": 13.528341743646893,
+      "validation_score": 0.864716582563531,
+      "layer_success_count": 6,
+      "primary_source": "Layer 6: Final Validation",
+      "execution_time": 0.00021696090698242188,
+      "conditions": {
+        "cutting_speed": 83.01413460790246,
+        "feed_rate": 0.31304181657919805,
+        "depth_of_cut": 0.7896310436143544,
+        "layer_weights": {
+          "L1": 0.5061243444197143,
+          "L2": 0.1,
+          "L5": 0.3981704709503214
+        }
+      },
+      "timestamp": "2025-05-30T10:57:39.623024"
+    }
+  ]
+}
